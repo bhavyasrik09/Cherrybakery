@@ -1,12 +1,91 @@
+html{
+    background: rgb(247, 215, 247);
+}
 nav{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center; 
+}
+.nav{
+    background: rgb(253, 253, 253);
+    max-width:100%;
+    height: auto;
+    padding: 10px 20px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
 
+}
+ul li {
+    margin-left: 40px;
+    margin-right: 20px;
+    align-items: center;
 }
 ul{
     display: flex;
     list-style-type: none;
-    padding: 5px;
+    margin-left:0px; 
+    margin-right: 40px;
+    padding: 0;
+    justify-content: center;
+}
+.logo{
+    max-width: 25%;
+    height: auto;
+    float: left;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.logo1{
+    font-size: large;
+    font-style: oblique;
+    margin-left: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.logo2{
+    font-size: small;
+    font-style:italic;
+    margin-left: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.cart{
+    max-width: 3%;
+    margin-left: 300px;
+    
 
+}
+.cart_button{
+    width: 50px;
+
+}
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+}
+.content{
+    margin-top: 150px;
+    width: 500px;
+    margin-left: 20px;
+}
+.buybutton{
+    width: 40%;
+    height: 50px;
+    border-radius: 50px;
+    border-color:rgb(243, 84, 182);
+    background-color: rgb(243, 84, 182);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    
+}
+.cup{
+    width: 220%;
+   padding-top: 20px;
+}
+.donut{
+    width:500px;
+    height: 300px;
+    z-index: -1;
+}
+.content0{
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    height: auto;
 }
